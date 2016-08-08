@@ -2,7 +2,7 @@
 
 A trivia game based on The Office running as a skill for Amazon Alexa 
 
-```
+#### Sample Questions
 What did Angela give Creed for Christmas in Classy Christmas?
  - deodorant
 
@@ -11,7 +11,7 @@ Where does Michael consider the New golf course of business?
 
 When Dwight lies and tells everyone they are getting a thousand dollar raise, what does Stanley tell his wife to buy?
  - Wallpaper
-```
+
 
 ## Getting Started
 
