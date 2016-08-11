@@ -1,5 +1,5 @@
 /*
- * Brand Quiz - Amazon Alexa Skill
+ * The Office Trivia - Amazon Alexa Skill
  *
  * @author  Mason Itkin & Janet P Lee
  * @version 1.0, 8/10/2016
