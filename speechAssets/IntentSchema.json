@@ -5,24 +5,15 @@
       "slots": [
         {
           "name": "Answer",
-          "type": "LIST_OF_ANSWERS"
+          "type": "AMAZON.NUMBER"
         }
       ]
-    },
-        {
-      "intent": "AnswerOnlyIntent",
-      "slots": [
-        {
-          "name": "Answer",
-          "type": "LIST_OF_ANSWERS"
-        }
-      ]
-    },
-    {
-      "intent": "AMAZON.StartOverIntent"
     },
     {
       "intent": "DontKnowIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
     },
     {
       "intent": "AMAZON.RepeatIntent"

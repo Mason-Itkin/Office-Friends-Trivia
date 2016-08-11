@@ -3,6 +3,7 @@
 A trivia game based on The Office running as a skill for Amazon Alexa 
 
 #### Sample Questions
+
 1. What did Angela give Creed for Christmas in Classy Christmas?
     - deodorant
 
@@ -12,13 +13,11 @@ A trivia game based on The Office running as a skill for Amazon Alexa
 3. When Dwight lies and tells everyone they are getting a thousand dollar raise, what does Stanley tell his wife to buy?
     - Wallpaper
 
-
 ## Getting Started
 
 Say, "Alexa enable the The Office Trivia"
 
 ## Author
 
-* **Janet Lee & Mason Itkin**
-- Janet Lee [@janetplee](https://twitter.com/janetplee)
-- [mason-itkin](https://github.com/mason-itkin)
+* **Janet P Lee : [@janetplee](https://twitter.com/janetplee)
+* **Mason Itkin : [mason-itkin](https://github.com/mason-itkin)

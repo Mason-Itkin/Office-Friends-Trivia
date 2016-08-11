@@ -1,0 +1,20 @@
+{
+  "name": "the-office-trivia",
+  "version": "1.0.0",
+  "description": "A simple trivia skill.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "trivia",
+    "office"
+  ],
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}
