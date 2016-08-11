@@ -1,5 +1,5 @@
 /*
- * The Office Trivia - Amazon Alexa Skill
+ * Office Friends Trivia - Amazon Alexa Skill
  *
  * @author  Mason Itkin & Janet P Lee
  * @version 1.0, 8/10/2016
@@ -8,7 +8,7 @@
 
 'use strict';
 
-var GAME_NAME = 'The Office Trivia';
+var GAME_NAME = 'Office Friends Trivia';
 var ANSWER_COUNT = 4; // The number of possible answers per trivia question.
 var GAME_LENGTH = 5;  // The number of questions per trivia game.
 var GAME_STATES = {
@@ -296,7 +296,7 @@ var helpStateHandlers = Alexa.CreateStateHandler(GAME_STATES.HELP, {
         this.emitWithState('AMAZON.RepeatIntent');
     },
     'AMAZON.NoIntent': function() {
-        var speechOutput = 'Ok, we\'ll play another time. Goodbye!';
+        var speechOutput = 'Thanks for playing ' + GAME_NAME + '. Goodbye!';
         this.emit(':tell', speechOutput);
     },
     'AMAZON.StopIntent': function () {
@@ -339,8 +339,8 @@ function handleUserGuess(userGaveUp) {
     // Check if we can exit the game session after GAME_LENGTH questions (zero-indexed)
     if (this.attributes['currentQuestionIndex'] == GAME_LENGTH - 1) {
         speechOutput = userGaveUp ? "" : "That answer is ";
-        speechOutput += speechOutputAnalysis + "You got " + currentScore.toString() + " out of "
-            + GAME_LENGTH.toString() + " questions correct. Thank you for playing!";
+        speechOutput += speechOutputAnalysis + "Your score is " + currentScore.toString() + " out of "
+            + GAME_LENGTH.toString() + ". Thank you for playing " + GAME_NAME;
 
         this.emit(':tell', speechOutput)
     } else {

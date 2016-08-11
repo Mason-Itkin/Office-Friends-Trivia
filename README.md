@@ -1,6 +1,6 @@
-# Brand Quiz
+# Office Friends Trivia
 
-A trivia game based on The Office running as a skill for Amazon Alexa 
+Office Friends Trivia is a 5 question trivia game for Amazon Alexa that tests your knowledge of NBC's tv series, The Office.
 
 #### Sample Questions
 
@@ -15,7 +15,7 @@ A trivia game based on The Office running as a skill for Amazon Alexa
 
 ## Getting Started
 
-Say, "Alexa enable the The Office Trivia"
+Say, "Alexa enable Office Friends Trivia"
 
 ## Author
 

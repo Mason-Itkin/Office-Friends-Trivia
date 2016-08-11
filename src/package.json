@@ -1,5 +1,5 @@
 {
-  "name": "the-office-trivia",
+  "name": "office-friends-trivia",
   "version": "1.0.0",
   "description": "A simple trivia skill.",
   "main": "index.js",
