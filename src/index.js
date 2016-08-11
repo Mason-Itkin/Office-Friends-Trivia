@@ -26,7 +26,8 @@ var questions = [
         "Where did Andy Bernard attend college?": [
             "cornell",
             "yale",
-            "Texas A & M"
+            "Texas A & M",
+            "berkely"
         ]
     },
     {
@@ -128,7 +129,7 @@ var questions = [
     },
     {
         "Who does Michael hook up with at Jim and Pam's wedding?": [
-            "pam's mom"
+            "pam's mom",
             "dwight's dad",
             "stanley",
             "carol"
@@ -138,7 +139,8 @@ var questions = [
         "What restaurant does Michael call, thinking its a hot and juicy redhead?": [
             "wendy's",
             "olive garden",
-            "mcdonald's"
+            "mcdonald's",
+            "sonic"
         ]
     },
     {
@@ -180,7 +182,7 @@ var questions = [
             "danny",
             "jimmy"
         ]
-    },
+    }
 ];
 
 var Alexa = require('alexa-sdk');
